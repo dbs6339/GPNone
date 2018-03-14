@@ -1,0 +1,115 @@
+
+input[type=text]{
+      width: 100%;
+      margin: 8px 0;
+      background-color: #fdeafd;
+      border: none;
+}
+input[type=PASSWORD]{
+      margin: 8px 0;
+      width: 100%;
+      background-color: #fdeafd;
+      border: none;
+}
+.effect {
+    position: relative;
+    display: inline-block;
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+}
+@import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
+
+
+  a {
+      font-family: 'Noto Sans',sans-serif;
+      text-decoration: none;
+      color: #fdeafd;
+      font-size: 30px;
+      font-weight: 400;
+  }
+
+  /* Design Area */
+
+body{
+      background-color:azure;
+      font-family: 'Noto Sans',sans-serif;
+
+
+}
+.login-wrapp {
+      background-color: aliceblue;
+      width: 600px;
+      margin: 50px auto;
+      border-bottom: 1px solid #fdeafd;
+      box-shadow: 0px 11px 31px rgba(0,0,0,0.3);
+}
+.login-top {
+      background-color: #1F1F1F;
+      padding: 50px 0 120px;
+      text-align: center;
+
+}
+
+.login-box{
+      background-color: aliceblue;
+      margin: -40px 40px 40px;
+      border-radius: 20px;
+      padding: 20px 40px 40px;
+      box-shadow: 0px 3px 20px rgba(0,0,0,0.2);
+}
+.login-title {
+      font-size: 30px;
+      color: #1F1F1F;
+      text-align: center;
+      font-weight: 400;
+}
+.login-form {
+      margin-top: 30px;
+      list-style: none;
+      padding-left: 0px;
+
+}
+.login-form li:first-child{
+      margin-bottom;
+}
+
+.login-guide{
+      font-size: 12px;
+      color: #1F1F1F;
+      font-weight: 400;
+}
+.login-form input {
+      display: block;
+      width: 100%;
+      border-bottom: 1px solid #e5d1e5;
+      background-color:aliceblue;
+      padding: 2px 2px 4px;
+      color: #764d76;
+      font-size: 14px ;
+      font-weight: 700 ;
+}
+.login-submit {
+      background-color: #1F1F1F;
+      width: 300px;
+      display: Block;
+      margin: 30px auto;
+      height: 70px;
+      line-height: 70px;
+      border-radius: 80px;
+      color: aliceblue;
+      font-size: 16px;
+      font-weight: 709;
+}
+.login-submit:hover {
+      background-color: #AAAAAA;
+
+}
+.login-submit:active {
+      background-color: #666666;
+}
+a.login-guide {
+      display: inline-block;
+      width: 100%;
+      text-align: center;
+}
