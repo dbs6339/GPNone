@@ -1,0 +1,140 @@
+@import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
+
+
+ a{text-decoration:none; color:#000000;}	
+
+body{
+    font-family: 'Noto Sans',sans-serif;
+    margin:0px;    
+}
+    
+.banner {
+    margin: 10;
+    padding :40px;
+    padding: 50px 0 120px;
+    width: 99%;
+    height: 150px;
+    text-align: center;
+    top: 50%;
+    border-bottom: 1px solid  linear-gradient(-90deg, #FFFFFF, aliceblue);
+    box-shadow: 0px 11px 31px rgba(0,0,0,0.3);
+    border-radius: 10px;
+}
+.menu {
+    background-image: linear-gradient(-90deg, #FFFFFF, aliceblue);
+    margin: -40px 40px 40px;
+    width: auto;
+    min-width: 400px;
+    max-width: 700px;
+    border-bottom: 1px solid  linear-gradient(-90deg, #FFFFFF, aliceblue);
+    box-shadow: 0px 11px 31px rgba(0,0,0,0.3);
+    border-radius: 10px;
+    border-left: 30px solid ;
+    
+}
+.container{
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.maincontent {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    z-index: 2;
+    margin: 10;
+    background-image: linear-gradient(-90deg, #FFFFFF, aliceblue);
+    border-bottom: 1px solid  linear-gradient(-90deg, #FFFFFF, aliceblue);
+    overflow:hidden;
+    height:400px;
+    max-width: 1000px;
+    border-left: 30px solid ;
+    box-shadow: 0px 11px 31px rgba(0,0,0,0.3);
+    border-radius: 10px;
+}
+.userlayer{
+    grid-column-start: 4;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    background-image: linear-gradient(-90deg, #FFFFFF, aliceblue);
+    border-bottom: 1px solid linear-gradient(-90deg, #FFFFFF, aliceblue);
+    width: 170;
+    height: 110;
+    border-radius: 10px;
+    border-left:30px solid;
+    margin: 20px 20px 0px 30px;
+    box-shadow: 0px 11px 31px rgba(0,0,0,0.3); /*그림자 */
+}
+
+.sidebar{
+    grid-column-start: 4;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    background-image: linear-gradient(-90deg, #FFFFFF, aliceblue);
+    width: 170;
+    margin: 20px 20px 40px 30px;
+    box-shadow: 0px 11px 31px rgba(0,0,0,0.3); /*그림자 */
+    border-radius: 10px;            /* 윤곽 둥글게 */
+    border-left: 30px solid ;
+    border-bottom: 30px solid  linear-gradient(-90deg, #FFFFFF, aliceblue);
+    
+
+}
+ul {
+    padding-top:10px;               /* 상단 여백 10px */
+    padding-bottom:10px;            /* 하단 여백 10px */
+    padding-left:0px;
+} 
+.maincontent ul li{
+    padding:0 10px;
+    font: 12px;
+    list-style:none;
+    padding-bottom:1.9em
+}
+.menu ul li {
+    display:inline-grid;                 /* 세로나열을 가로나열로 변경 */
+    border-left:1px solid #999;     /* 각 메뉴의 왼쪽에 "|" 표시(분류 표시) */
+    padding:0 10px;                 /* 각 메뉴 간격 */ 
+}
+.sidebar ul li {
+    height: 30px ;
+    font:bold 12px Dotum;           /* 폰트 설정 - 12px의 돋움체 굵은 글씨로 표시 */
+    list-style:none;
+    padding:0 10px; 
+}
+.top-menu ul li {
+    display:inline;
+    height: 30px ;    
+    font: 12px ;           /* 폰트 설정 - 12px의 돋움체 굵은 글씨로 표시 */
+    list-style:none;
+    padding:0 10px; 
+}
+.top-menu ul li:first-child{border-left:none;}
+.menu ul li:first-child{border-left:none;} /* 메뉴 분류중 제일 왼쪽의 "|"는 삭제 */
+.main-submit {
+    width:;
+    background-image: none ;
+    background-color: transparent ;
+    border: none;
+    color: black;
+    font:bold 12px Dotum;
+}
+.main-submit:hover {    
+      color: #ffffff;    /* 마우스 올려졌을 때 색 변화 */
+
+}
+.main-submit:active {
+      color: #ffffff;    /* 마우스 눌렀을 때 색 변화 */
+}
+.footer ul li{
+    list-style:none;
+}
+.footer {
+    
+    margin-top:1.9em;
+    padding-bottom: 80px;
+    background:black;
+}
